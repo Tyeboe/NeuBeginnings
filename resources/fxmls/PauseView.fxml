@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="625.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="500.0" prefWidth="625.0">
+         <top>
+            <Label id="title" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="61.0" prefWidth="625.0" text="Neu Beginnings" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <VBox id="main" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="mainMenuButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Main Menu" />
+                  <Button fx:id="saveGameButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Save Game" />
+                  <Button fx:id="characterButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Character" />
+                  <Button fx:id="exitButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Resume Game" />
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

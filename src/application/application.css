@@ -1,0 +1,150 @@
+@font-face {
+	src: url('Orbitron-Bold.ttf');
+}
+#main {
+	-fx-background-color: rgb(111.0,111.0,111.0);
+	-fx-border-style: none;
+	-fx-padding: 5.0px;
+	-fx-font-size: 16.0px;
+	}
+.button {
+	-fx-text-fill:rgb(0.0,0.0,0.0);
+	-fx-background-color: rgb(247.0,189.0,70.0);
+	-fx-border-radius: 5.0px;
+	-fx-padding: 10.0px;
+	-fx-border-insets: 5.0px;
+    -fx-background-insets: 5.0px;
+    -fx-font-family: "Orbitron-Bold";
+	}
+.button:hover {
+/* <<<<<<< HEAD
+	-fx-text-fill: rgb(0,0,0);
+	-fx-background-color: rgb(249,210,132);
+	-fx-border-radius: 5px;
+	-fx-padding: 10px;
+	-fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+.button:pressed {
+	-fx-text-fill:rgb(0,0,0);
+	-fx-background-color: rgb(217,150,11);
+======= */
+	-fx-text-fill:rgb(0.0,0.0,0.0);
+	-fx-background-color: rgb(248.0,201.0,103.0);
+	-fx-border-radius: 5.0px;
+	-fx-padding: 10.0px;
+	-fx-border-insets: 5.0px;
+    -fx-background-insets: 5.0px;
+}
+.button:pressed {
+	-fx-text-fill:rgb(0.0,0.0,0.0);
+	-fx-background-color: rgb(209.0,145.0,10.0);
+/*>>>>>>> refs/remotes/origin/Dakota */
+	-fx-border-radius: 5.0px;
+	-fx-padding: 10.0px;
+	-fx-border-insets: 5.0px;
+    -fx-background-insets: 5.0px;
+}
+.split-pane-divider {
+   -fx-background-color: transparent;
+   -fx-padding: 0.0 0.0 0.0 0.0;
+}
+
+.separator:horizontal .line {
+	-fx-border-style: none;
+	-fx-border-color: rgb(247.0,189.0,70.0);
+	-fx-padding: 0.0px;
+}
+
+.label {
+	-fx-text-fill: rgb(0.0,0.0,0.0);
+	-fx-font-family: "Orbitron-Bold";
+	-fx-padding: 5.0px;
+}
+
+#title {
+	-fx-background-color: rgb(111.0,111.0,111.0);
+}
+
+.progress-bar > .bar {
+	-fx-background-color: rgb(203.0,5.0,5.0);
+	-fx-background-insets: 2.0, 0.0;
+}
+.progress-bar > .track {
+
+	-fx-background-color: rgb(0.0,0.0,0.0);
+	-fx-background-insets: 0.0, 1.0;
+}
+
+#xp > .bar {
+	-fx-background-color: rgb(139.0,220.0,141.0);
+	-fx-background-insets: 2.0, 0.0;
+}
+#xp > .track {
+
+	-fx-background-color: rgb(0.0,0.0,0.0);
+	-fx-background-insets: 0.0,1.0;
+}
+#energy > .bar{
+	-fx-background-color: rgb(254.0,170.0,56.0);
+	-fx-background-insets: 2.0, 0.0;
+
+}
+#energy > .track {
+	-fx-background-color: rgb(0.0,0.0,0.0);
+	-fx-background-insets: 0.0,1.0;
+}
+.list-cell {
+	-fx-font-family: "Orbitron-Bold";
+	-fx-background-color: rgb(247.0,189.0,70.0);
+	-fx-text-fill: rgb(0.0,0.0,0.0);
+}
+.list-cell:filled:selected:focused {
+	-fx-background-color: rgb(217.0,150.0,11.0);
+}
+.list-view:focused .list-cell:filled:hover {
+	-fx-text-fill:rgb(0.0,0.0,0.0);
+	-fx-background-color: rgb(249.0,210.0,132.0);
+}
+
+/*NOTE(andrew): I suck at css but heres my attempt at styling displayed messages */
+#displayText {
+	-fx-control-inner-background: rgb(228.0,228.0,228.0);
+	-fx-border-radius: 5.0px;
+	-fx-border-color: rgb(0.0, 0.0, 0.0);
+	-fx-border-width: 1.0px;
+	-fx-font-family: "Orbitron-Bold";
+	-fx-border-insets: 5.0px;
+	-fx-max-width: 500.0px;
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+}
+
+.menu-bar{
+	-fx-padding: 0.0px;
+}
+
+.menu:hover{
+	-fx-background-color: rgb(247.0,189.0,70.0);
+}
+.menu:showing {
+	-fx-background-color: rgb(209.0,145.0,10.0);
+}
+.menu-item:hover {
+	-fx-background-color: rgb(247.0,189.0,70.0);
+}
+.menu-item:focused{
+	-fx-background-color: rgb(247.0,189.0,70.0);
+	
+}
+
+#playerEnergyBar .bar{
+	-fx-background-color: rgb(254.0,170.0,56.0);
+	-fx-background-insets: 2.0, 0.0;
+}
+
+#playerEnergyBar .track {
+	-fx-background-color: rgb(0.0,0.0,0.0);
+    -fx-background-insets:  0.0, 1.0;
+}
+
